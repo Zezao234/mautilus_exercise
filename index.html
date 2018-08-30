@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="assets/styles/search.css">
+</head>
+<body>
+
+<!-- Error Message -->
+<div id="loader"></div>
+
+    <div class="container">
+        <div class="row search-row">
+            <gcse:searchbox></gcse:searchbox>
+        </div>
+
+        <div class="row results-row hidden">
+            <div class="image-search col-search">
+                <gcse:search enableImageSearch="true" disableWebSearch="true"></gcse:search>
+            </div>
+
+            <div class="text-search col-search">
+                <gcse:searchresults enableImageSearch="false"></gcse:searchresults>
+            </div>
+        </div>
+    </div>
+
+<script src="assets/scripts/search.js"></script>
+</body>
+</html>

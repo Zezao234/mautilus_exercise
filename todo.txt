@@ -1,0 +1,5 @@
+Known bugs/To do:
+
+- It is not responsive to every screen size;
+- Sometimes the image request gives no response;
+- Due to the lack of time could not do a test module. The test module would be on Protractor (since it is the only way I learnt how to do), disabling the AngularJS part

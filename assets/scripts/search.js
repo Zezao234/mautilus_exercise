@@ -81,6 +81,7 @@
 
             clearImageResults : function(){
                 document.querySelector(imageResultSpanEl).click();
+                resultsRowDOM.classList.add('hidden');
             },
 
             //Get Elements from our HTML

@@ -107,6 +107,8 @@
 .text-search .gsc-thumbnail {
   display: none; }
 
+.search-row #___gcse_0 {
+  width: 100%; }
 .search-row .gsc-input-box {
   border: 3px solid #e5e4e9;
   -webkit-border-radius: 10px;

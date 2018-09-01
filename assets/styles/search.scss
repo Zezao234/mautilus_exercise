@@ -170,6 +170,11 @@ $cursor-page-colour: rgb(132,132,132);
 
 .search-row{
 
+  //For firefox
+  #___gcse_0{
+    width : 100%;
+  }
+
   .gsc-input-box{
     border: $border-size solid $div-border-colour;
     @include border-radius($border-radius);

@@ -2,4 +2,7 @@ Known bugs/To do:
 
 - It is not responsive to every screen size;
 - Sometimes the image request gives no response;
-- Due to the lack of time could not do a test module. The test module would be on Protractor (since it is the only way I learnt how to do), disabling the AngularJS part
+
+Notes:
+    - Sometimes the url in the test gives error because of added elements
+    - Seems there is a bug with testing Protractor on Firefox not working, so that part goes on comment without possibility to test it
